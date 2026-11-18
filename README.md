@@ -2,7 +2,7 @@
 
 A local PyTorch + Hugging Face `transformers` audio taste predictor (**SonicTaste / STC**) that learns personal song preferences (`1.0–5.0★` and `>=4.0★` Hit probability) from 30-second studio audio previews. SonicTaste can run via CLI or as a managed HTTP sidecar inside the K-Pop DAT UI.
 
-> **Prerequisite — Requires K-Pop DAT:** SonicTaste **cannot operate standalone** without the companion **[K-Pop DAT (Discography & Analytics Tracker)](../KPop%20App/README.md)**. It reads your rated catalog, canonical deduplication rules, and soloist-to-group vocal links directly from `kpop_ratings.db` in strict **read-only** mode (`?mode=ro`).
+> **Prerequisite — Requires K-Pop DAT:** SonicTaste **cannot operate standalone** without the companion **[K-Pop DAT (Discography & Analytics Tracker)](https://github.com/mth309/kpop-discography-analytics)**. It reads your rated catalog, canonical deduplication rules, and soloist-to-group vocal links directly from `kpop_ratings.db` in strict **read-only** mode (`?mode=ro`).
 
 ---
 

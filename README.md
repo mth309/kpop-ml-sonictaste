@@ -6,6 +6,10 @@ A local PyTorch + Hugging Face `transformers` audio taste predictor (**SonicTast
 
 ---
 
+![Artist Deep Dive](docs/DAT-integration.png)
+
+---
+
 ## How It Works
 
 1. **Frozen Audio Backbone (`m-a-p/MERT-v1-95M`):** Extracts 13 hidden-layer embeddings (`(13, 768)`) plus 5-second temporal windows (`(6, 768)`) from 30-second audio previews (Deezer / iTunes / local `data/audio_overrides/`) on CUDA GPU or CPU.

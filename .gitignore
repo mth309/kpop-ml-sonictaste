@@ -1,0 +1,24 @@
+# Ignore compiled Python
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore local audio previews, MERT embeddings, and model checkpoints
+data/
+
+# Ignore local agent instructions, review, personal notes, IDE & system files
+GEMINI.md
+CODE_REVIEW.md
+BACKLOG.md
+CHEATSHEET.md
+NOTES.md
+.vscode/
+*.code-workspace
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

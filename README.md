@@ -30,9 +30,10 @@ A local PyTorch + Hugging Face `transformers` audio taste predictor (**SonicTast
 cd SonicTaste
 python -m venv venv
 .\venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 
-# 1. Install PyTorch with CUDA first (adjust CUDA version for your GPU, or omit --index-url for CPU):
-pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
+# 1. Install PyTorch with CUDA first (adjust CUDA version for your GPU, or omit --extra-index-url for CPU):
+pip install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
 
 # 2. Install remaining dependencies:
 pip install -r requirements.txt
